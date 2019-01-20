@@ -1,0 +1,8 @@
+mat-toolbar {
+  margin-bottom: 32px;
+}
+
+mat-toolbar>span:hover {
+  cursor: pointer;
+  color: chartreuse
+}

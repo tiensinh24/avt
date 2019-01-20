@@ -1,0 +1,9 @@
+<mat-toolbar color="primary" fxLayout="row" fxLayoutGap="8px">
+  <button mat-icon-button>
+    <mat-icon>menu</mat-icon>
+  </button>
+  <mat-icon>home</mat-icon>
+  <span [routerLink]="['/']">Home</span>
+  <span [routerLink]="['/employee']">Employee</span>
+</mat-toolbar>
+<router-outlet></router-outlet>
